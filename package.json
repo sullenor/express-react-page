@@ -1,0 +1,31 @@
+{
+  "name": "express-react-page",
+  "version": "1.0.0",
+  "description": "Simple demo of react server rendering to the static markup",
+  "main": "app/index.js",
+  "scripts": {
+    "start": "node app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sullenor/express-react-page.git"
+  },
+  "keywords": [
+    "express",
+    "react",
+    "engine"
+  ],
+  "author": "Alexey Litvinov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sullenor/express-react-page/issues"
+  },
+  "homepage": "https://github.com/sullenor/express-react-page#readme",
+  "dependencies": {
+    "babel": "^5.8.23",
+    "express": "^4.13.3",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0"
+  }
+}
