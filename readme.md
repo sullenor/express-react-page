@@ -1,5 +1,5 @@
-express-react-page
-==================
+react-server-rendering
+======================
 
 Simple demo of react server rendering to the static markup based on express. Using views engine from express.
 
