@@ -1,9 +1,12 @@
 import express from 'express';
-import engine from './react-engine';
+import { join } from 'path';
+import reactEngine from './react-engine';
 const port = 3000;
 const app = express();
 
-engine(app);
+app.set('views', join(__dirname, '../components'));
+app.set('view engine', 'js');
+app.engine('js', reactEngine);
 
 app.get('/', (req, res) => {
   res.render('page', {
